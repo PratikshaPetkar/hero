@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+li,
+a,
+button {
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  margin: 50px;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+.nav_link li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_link li a:hover {
+  color: #0088a9;
+}
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  /* transition: all 0.3s ease 0.5s; */
+}
+button:hover {
+  background-color: rgba(0, 136, 169, 0.5);
+}
+.cta {
+  margin-right: 16px;
+  margin-right: 16px;
+}
+.hero {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  color: cornflowerblue;
+  font-size: 50px;
+  font-weight: 500px;
+  margin: 50px 50px;
+}
+h3 {
+  color: cornflowerblue;
+  font-weight: 200px;
+  margin: 50px 50px;
+}
+p {
+  margin: 50px 50px;
+}
+
+.btn1 {
+  border: none;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 50px 50px;
+}
+.image {
+  
+    justify-content:flex-end;
+    align-items: right; 
+     background-position: right;
+     float: right; 
+     min-width: 100%;
+     object-fit: cover;
+    
+  
+}
